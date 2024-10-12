@@ -30,13 +30,15 @@ If Node.js and npm are not installed, download and install them from [here](http
     git clone https://github.com/your-username/your-repo-name.git
     cd your-repo-name
     ```
+2. npm init -y: Initializes with default values.
+   npm init: Initializes with an interactive questionnaire.
 
-2. **Install Cypress** and other project dependencies:
+3. **Install Cypress** and other project dependencies:
     ```bash
     npm install cypress --save-dev
     ```
 
-3. **Open Cypress** to verify the installation:
+4. **Open Cypress** to verify the installation:
     ```bash
     npx cypress open
     ```
